@@ -1,0 +1,19 @@
+.controls {
+    display: flex;
+    padding-top: 11px;
+}
+
+.controls__text {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.controls__text:not(:last-child) {
+    margin-right: 28px;
+}
+
+.controls__text svg {
+    fill: var(--grey99);
+    margin-right: 5px;
+}

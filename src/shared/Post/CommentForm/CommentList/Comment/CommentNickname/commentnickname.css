@@ -1,0 +1,20 @@
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content__image {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-right: 7px;
+}
+
+.content__text {
+    display: inline-block;
+}
+
+.content__text span {
+    margin-left: 5px;
+}

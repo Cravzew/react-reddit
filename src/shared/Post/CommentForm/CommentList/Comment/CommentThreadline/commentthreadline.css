@@ -1,0 +1,24 @@
+.threadline {
+    position: relative;
+    padding-right: 30px;
+}
+
+.threadline__content {
+    margin-left: 5px;
+    vertical-align: top;
+    width: 13px;
+    bottom: 0;
+    position: absolute;
+    height: calc(100% - 40px);
+}
+
+.threadline__line {
+    border-right: 2px solid var(--greyD9);
+    display: block;
+    height: 100%;
+    width: 50%;
+}
+
+.threadline__button {
+    display: block;
+}

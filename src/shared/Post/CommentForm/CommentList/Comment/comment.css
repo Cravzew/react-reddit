@@ -1,0 +1,8 @@
+.comment__box {
+    display: flex;
+    padding: 35px 0;
+}
+
+.comment__content {
+    width: 100%;
+}
